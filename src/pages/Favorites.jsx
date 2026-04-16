@@ -2,6 +2,7 @@ import { useSelector } from 'react-redux'
 import MovieGrid from '../components/MovieGrid'
 import './Page.css'
 
+// Favorites page showing user's saved movies
 const Favorites = () => {
   const { movies } = useSelector((state) => state.favorites)
 
