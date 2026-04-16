@@ -4,6 +4,7 @@ import { fetchPopularMovies } from '../store/slices/moviesSlice'
 import MovieGrid from '../components/MovieGrid'
 import './Home.css'
 
+// Home page displaying popular movies
 const Home = () => {
   const dispatch = useDispatch()
   const { popular } = useSelector((state) => state.movies)
