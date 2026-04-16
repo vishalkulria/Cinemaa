@@ -8,6 +8,7 @@ import MovieDetails from './pages/MovieDetails'
 import Search from './pages/Search'
 import Favorites from './pages/Favorites'
 
+// Main App component with routing
 function App() {
   return (
     <Layout>
