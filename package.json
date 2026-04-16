@@ -1,5 +1,6 @@
 {
   "name": "cinemaa",
+  "description": "A modern IMDb clone built with React, Redux Toolkit, and TMDB API",
   "private": true,
   "version": "1.0.0",
   "type": "module",
