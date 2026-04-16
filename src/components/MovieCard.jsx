@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { tmdbApi } from '../services/tmdbApi'
 import './MovieCard.css'
 
+// Movie card component displaying individual movie information
 const MovieCard = ({ movie }) => {
   const imageUrl = tmdbApi.getImageUrl(movie.poster_path, 'w500')
   const rating = movie.vote_average?.toFixed(1) || 'N/A'
