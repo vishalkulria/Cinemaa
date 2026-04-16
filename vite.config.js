@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // Vite configuration for React development and production build
 export default defineConfig({
+  base: '/Cinemaa/',
   plugins: [react()],
   server: {
     port: 3000,
