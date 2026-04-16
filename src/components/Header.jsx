@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux'
 import { setQuery, searchMovies } from '../store/slices/searchSlice'
 import './Header.css'
 
+// Header component for navigation and search functionality
 const Header = () => {
   const [searchTerm, setSearchTerm] = useState('')
   const navigate = useNavigate()
