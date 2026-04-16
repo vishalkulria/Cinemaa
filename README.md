@@ -6,7 +6,7 @@ A modern IMDb clone built with React, Redux Toolkit, and TMDB API. Features a st
 
 - 🎬 Browse Popular, Top Rated, and Upcoming movies
 - 🔍 Search movies with real-time results
-- ❤️ Save favorite movies
+- ❤️ Save favorite movies to your personal collection
 - 📱 Responsive design
 - 🎨 Modern neon purple theme with glassmorphism effects
 - ⚡ Fast and optimized with Redux Toolkit
