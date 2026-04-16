@@ -1,5 +1,6 @@
 import axios from 'axios'
 
+// TMDB API configuration and initialization
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY || 'YOUR_API_KEY_HERE'
 const BASE_URL = 'https://api.themoviedb.org/3'
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p'
